@@ -1,0 +1,50 @@
+
+h1{
+    background-color: rgb(28, 28, 214);
+    color: white;
+}
+p{
+    background-color: tomato;
+    color: white;
+}
+span{
+    background-color: chocolate;
+    color: white;
+    padding: 5px;
+}
+b{
+    background-color: teal;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+}
+a{
+    background-color: red;
+    color: white;
+}
+.click{
+    text-align: center;
+}
+.img{
+    margin-top: 30px;
+    text-align: center;
+}
+.main-menu{
+    text-align: center;
+}
+.main-menu li{
+    display: inline-block;
+}
+.main-menu li a{
+    background-color: crimson;
+    padding: 10px 88px;
+    color: darkgreen;
+    display: inline-block;
+    border: 2px solid rgb(44, 24, 216);
+    text-decoration: none;
+    font-size: 40px;
+}
+.main-menu li a:hover{
+    background-color: chartreuse;
+    transition: .5s;
+}

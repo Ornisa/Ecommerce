@@ -1,0 +1,445 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="full-website">
+      <!-- heading image section -->
+      <div class="header-img">
+        <div class="logo">
+          <img src="https://i.postimg.cc/xC5d9h1x/logo.png" alt="logo" />
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="heading">
+          <h1>WEB DESIGN & DESIGNER</h1>
+        </div>
+      </div>
+
+      <!-- about section -->
+      <div class="about">
+        <h2>ABOUT</h2>
+        <div class="about-img">
+          <img
+            src="https://i.postimg.cc/x8mXyD1c/Getty-Images-173404960-56a1348f5f9b58b7d0bd03bd.jpg"
+            alt=""
+          />
+        </div>
+        <div class="about-pera">
+          <p>
+            This is photoshop version of Lorem ipsum. Proin dolor sit
+            amecusandaepe deserunt d cumque ipsam aperiam doloremque adipisci
+            eligendi quo optio sed dolores delectus voluptate eos, emo?
+            Sapiente, quo eligendi. Reiciendis hic numquam dicta facilis, alias
+            tempore optio possimus.
+          </p>
+          <br />
+          <p>
+            This is photoshop version of Lorem ipsum. Proin dolor sit Vel
+            consequatur dantium id aconsectetur adipisicing elit. Vel excepturi
+            laudantium id aperiam, totam unde ad cupiditate eum neque?
+          </p>
+        </div>
+      </div>
+
+      <!-- service section -->
+      <div class="service">
+        <h2>SERVICE</h2>
+
+        <!-- service 1 -->
+        <div class="service-part">
+          <div class="icon">
+            <i class="fas fa-tv"></i>
+          </div>
+          <h4>webdesign</h4>
+          <ul>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+          </ul>
+          <a class="button b1" href="#">Learn More</a>
+        </div>
+
+        <!-- service 2 -->
+
+        <div class="service-part">
+          <div class="icon">
+            <i class="fas fa-print"></i>
+          </div>
+          <h4>print design</h4>
+          <ul>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+          </ul>
+          <a class="button b2" href="#">Learn More</a>
+        </div>
+
+        <!-- service 3 -->
+
+        <div class="service-part">
+          <div class="icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h4>web development</h4>
+          <ul>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+            <li><p>Lorem ipsum dolor sit amet.</p></li>
+          </ul>
+          <a class="button b3" href="#">Learn More</a>
+        </div>
+      </div>
+
+      <!-- contact part -->
+      <div class="contact">
+        <h2>CONTACT</h2>
+        <input type="text" name="" id="" placeholder="Your Name" /> <br />
+        <input type="email" name="" id="" placeholder="Your Email" /> <br />
+        <input type="number" name="" id="" placeholder="Your Number" /> <br />
+        <a class="button2" href="#">Submit</a>
+      </div>
+      <!-- footer section -->
+      <div class="footer">
+        <p>
+          &copy 2045 Onepage. All Right Reserved | Template By
+          <span>Template Stock</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .full-website {
+    font-family: sans-serif;
+    width: 1350px;
+  }
+  /* heading image section */
+  .header-img {
+    background-image: url(https://i.postimg.cc/Qd3Tmt5s/photo-1471879832106-c7ab9e0cee23.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 75%;
+    width: 100%;
+    padding: 35px 0;
+    position: relative;
+  }
+  .logo img {
+    position: absolute;
+    top: 40px;
+    left: 270px;
+    width: 120px;
+  }
+  /* menu section */
+  .menu ul {
+    text-align: right;
+    margin-right: 270px;
+    list-style: none;
+  }
+  .menu ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .menu ul li:hover a {
+    color: #ef664d;
+    transition: 0.2s;
+  }
+  
+  /* heading sec */
+  .heading {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 21px;
+    font-family: serif;
+    padding: 160px;
+  }
+  .heading h1::before {
+    content: "\f10d ";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ef664d;
+    font-size: 35px;
+    position: relative;
+    bottom: 21px;
+    font-style: normal;
+  }
+  .heading h1::after {
+    content: "\f10e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ef664d;
+    font-size: 35px;
+    position: relative;
+    bottom: 21px;
+    font-style: normal;
+  }
+  /* about section */
+  .about {
+    text-align: center;
+    padding: 40px;
+  }
+  .about h2 {
+    font-weight: 100;
+    font-family: serif;
+    padding-bottom: 30px;
+  }
+  .about-img {
+    display: inline-block;
+  }
+  .about-img img {
+    width: 165px;
+    border: 2px solid #ef664d;
+    box-shadow: -1px 0px 9px 3px rgb(97, 97, 97);
+  }
+  .about-pera {
+    display: inline-block;
+    color: rgb(27, 27, 27);
+    width: 500px;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: left;
+    margin-left: 100px;
+  }
+  
+  /* service section */
+  .service {
+    background-color: #2e3e4e;
+    padding: 75px 200px;
+    text-align: center;
+  }
+  .service h2 {
+    color: #ef664d;
+    font-weight: 100;
+    margin-bottom: 50px;
+    font-family: serif;
+  }
+  .service-part {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+  }
+  
+  /* service icon part */
+  
+  .service-part .icon {
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+    background-color: #ef664d;
+    border-radius: 4px 50%;
+    color: white;
+    line-height: 38px;
+    font-size: 15px;
+  }
+  
+  /* service heading part */
+  
+  .service-part h4 {
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 22px 0;
+  }
+  
+  /* service list part */
+  
+  .service-part ul {
+    list-style: none;
+  }
+  .service-part ul li {
+    color: white;
+  }
+  .service-part ul li p {
+    font-size: 13px;
+  }
+  .service-part ul li p::before {
+    content: "\f560";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #ef664d;
+    line-height: 30px;
+    margin-right: 10px;
+  }
+  
+  /* button part */
+  
+  .service-part .button {
+    color: white;
+    background-color: #ef664d;
+    padding: 7px 15px;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+    box-shadow: 2px 2px 5px black;
+    position: relative;
+    z-index: 1;
+  }
+  .b1::before {
+    content: "";
+    height: 100%;
+    width: 0;
+    background-color: #fffd06;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 5px;
+    transition: 0.2s;
+    z-index: -1;
+  }
+  .b1:hover::before {
+    width: 100%;
+  }
+  .button:hover {
+    color: rgb(4, 9, 248);
+  }
+  .b2::before {
+    content: "";
+    height: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fffd06;
+    border-radius: 5px;
+    transition: 0.2s;
+    z-index: -1;
+  }
+  .b2:hover::before {
+    height: 100%;
+  }
+  .b3::before {
+    content: "";
+    height: 100%;
+    width: 0;
+    background-color: #fffd06;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    transition: 0.2s;
+    z-index: -1;
+  }
+  .b3:hover::before {
+    width: 100%;
+  }
+  
+  /* contact section */
+  
+  .contact {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .contact h2 {
+    font-weight: 100;
+    font-family: serif;
+    padding-bottom: 10px;
+  }
+  .contact input {
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    display: inline-block;
+    outline: none;
+    width: 400px;
+    border: none;
+    border-bottom: 2px solid #ef664d;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  /* contact button */
+  
+  .contact .button2 {
+    color: white;
+    background-color: #ef664d;
+    padding: 8px 93px;
+    margin: 40px 0;
+    display: inline-block;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px rgb(34, 34, 34);
+    position: relative;
+    transition: 0.2s;
+    z-index: 1;
+  }
+  .button2::before {
+    content: "";
+    height: 100%;
+    width: 0%;
+    background-color: #711c09;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px 0 0 5px;
+    transition: 0.2s;
+    z-index: -1;
+  }
+  .button2::after {
+    content: "";
+    height: 100%;
+    width: 0%;
+    background-color: #4d211c;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+    transition: 0.2s;
+    z-index: -1;
+  }
+  .button2:hover::before {
+    width: 50%;
+  }
+  .button2:hover::after {
+    width: 50%;
+  }
+  
+  /* footer section */
+  .footer {
+    padding: 40px;
+    color: white;
+    background-color: #2e3e4e;
+    text-align: center;
+    font-size: 15px;
+  }
+  .footer span {
+    color: #ef664d;
+  }
+  
